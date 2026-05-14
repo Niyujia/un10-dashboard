@@ -218,11 +218,11 @@
 const dashboardData = {
   "kpi": {
     "total": 862,
-    "unfixed": 97,
-    "verified": 68,
-    "closed": 697,
-    "close_rate": 80.9,
-    "fix_rate": 88.7
+    "unfixed": 92,
+    "verified": 57,
+    "closed": 713,
+    "close_rate": 82.7,
+    "fix_rate": 89.3
   },
   "groups": [
     {
@@ -236,19 +236,19 @@ const dashboardData = {
     },
     {
       "name": "安卓组霍耀光",
-      "total": 12,
+      "total": 14,
       "closed": 0,
       "verified": 0,
-      "unfixed": 12,
+      "unfixed": 14,
       "close_rate": 0.0,
       "fix_rate": 0.0
     },
     {
       "name": "安卓组刘锐峰",
-      "total": 5,
+      "total": 1,
       "closed": 0,
       "verified": 0,
-      "unfixed": 5,
+      "unfixed": 1,
       "close_rate": 0.0,
       "fix_rate": 0.0
     },
@@ -263,15 +263,6 @@ const dashboardData = {
     },
     {
       "name": "硬件组向阳",
-      "total": 11,
-      "closed": 0,
-      "verified": 0,
-      "unfixed": 11,
-      "close_rate": 0.0,
-      "fix_rate": 0.0
-    },
-    {
-      "name": "结构组赵林立",
       "total": 10,
       "closed": 0,
       "verified": 0,
@@ -281,10 +272,19 @@ const dashboardData = {
     },
     {
       "name": "SE胡文",
-      "total": 6,
+      "total": 7,
       "closed": 0,
       "verified": 0,
-      "unfixed": 6,
+      "unfixed": 7,
+      "close_rate": 0.0,
+      "fix_rate": 0.0
+    },
+    {
+      "name": "结构组赵林立",
+      "total": 7,
+      "closed": 0,
+      "verified": 0,
+      "unfixed": 7,
       "close_rate": 0.0,
       "fix_rate": 0.0
     },
@@ -307,11 +307,11 @@ const dashboardData = {
       "fix_rate": 0.0
     },
     {
-      "name": "效能组崔龙龙",
-      "total": 3,
+      "name": "PQA戚飘红",
+      "total": 4,
       "closed": 0,
       "verified": 0,
-      "unfixed": 3,
+      "unfixed": 4,
       "close_rate": 0.0,
       "fix_rate": 0.0
     },
@@ -325,7 +325,7 @@ const dashboardData = {
       "fix_rate": 0.0
     },
     {
-      "name": "PQA戚飘红",
+      "name": "效能组崔龙龙",
       "total": 1,
       "closed": 0,
       "verified": 0,
@@ -334,19 +334,19 @@ const dashboardData = {
       "fix_rate": 0.0
     },
     {
-      "name": "测试部汪肖肖",
-      "total": 11,
+      "name": "NPI黄恒沵",
+      "total": 4,
       "closed": 0,
-      "verified": 10,
-      "unfixed": 1,
+      "verified": 4,
+      "unfixed": 0,
       "close_rate": 0.0,
-      "fix_rate": 90.9
+      "fix_rate": 100.0
     },
     {
-      "name": "NPI黄恒沵",
-      "total": 19,
+      "name": "测试部汪肖肖",
+      "total": 13,
       "closed": 0,
-      "verified": 19,
+      "verified": 13,
       "unfixed": 0,
       "close_rate": 0.0,
       "fix_rate": 100.0
@@ -371,195 +371,417 @@ const dashboardData = {
     }
   ],
   "group_issues": {
-    "卡组张辉权": [
+    "安卓组唐朝": [
       {
-        "id": "Q.01.000005513",
-        "title": "【UN10】- NTAG - 在飞行模式下开启NATG的低功耗电流是53.67mA（预期小于50mA）（UN10不带LAN口）（小铁架安装在大铁架上测试）",
+        "id": "Q.01.000005529",
+        "title": "【UN10R】-整机-机器接PC端，recovery系统下，投屏工具的左上角显示机身号为空。",
         "model": "UN10",
         "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "唐建斌",
-        "frequency": "必现"
+        "person": "刘泽祥",
+        "frequency": "高发"
       },
       {
-        "id": "Q.01.000005527",
-        "title": "【UN10】 -非接–Sony SO-01L在3.5cm高概率出现挥1次连续读取多次的现象 （模拟全包嵌入式安装）",
+        "id": "Q.01.000005510",
+        "title": "【UN10】-日志-偶现，0408里的日志时间的小时前有负数。",
         "model": "UN10",
-        "severity": "C：一般",
+        "severity": "D：优化建议",
         "type": "功能类",
         "status": "已分配",
-        "person": "张辉权",
+        "person": "路江飞",
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005508",
-        "title": "【UN10】- NTAG - 传音1手机读取883字节速度为507.6ms（预期结果小于500ms）（小铁架安装在大铁架上测试）_同步UN1R 521.22ms",
+        "id": "Q.01.000005562",
+        "title": "【UN10】-相机-同样一个摄像头，拍照和摄像的效果差异明显，拍照界面偏绿，录像界面偏红色(抓虫bug)",
         "model": "UN10",
         "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "罗绘东",
+        "person": "龚棕塘",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005535",
-        "title": "【UN10R】-NTAG-传音1手机读取883字节速度超过500ms，预期小于500ms",
+        "id": "Q.01.000005506",
+        "title": "【UN10】- NFC - 2张A卡重叠并同时读取3次后，重新读取其中1张卡成功后，另一张卡读取无反应且挥几次后，设备异常(自动重启)（小铁架安装在大铁架上测试）",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "路江飞",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005502",
+        "title": "【UN10】- NFC - 系统设置中，NFC菜单项提示语是“先安装付款应用，然后才能使用感应式付款功能”（预期提示语是“先安装付款应用，然后才能使用触碰付款功能”）(场景 小铁架安装在大铁架上测试)",
+        "model": "UN10",
+        "severity": "D：优化建议",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "邓峻",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005558",
+        "title": "【UN10R】-开关机-新机器UN10R100034，开机后快速按复位按键3下，机器有概率黑屏重启，如视频所示(抓虫bug)",
         "model": "UN10R",
         "severity": "C：一般",
         "type": "性能类",
         "status": "已分配",
-        "person": "罗绘东",
+        "person": "刘泽祥",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005475",
-        "title": "【UN10R】-NTAG-循环开关卡模拟成功率测试读卡到843次停止，0507晚上挂测读卡到918次停止（已卸载PT程序）",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "罗绘东",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004041",
-        "title": "【UN10R】-NTAG-持续开启NTAG，NTAG会自动关闭 备注-此时非接指示灯处于点亮状态",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "罗绘东",
-        "frequency": "偶发"
-      }
-    ],
-    "其他": [
-      {
-        "id": "Q.01.000005498",
-        "title": "【UN10】-USB-u盘识别不成功。消息显示u盘出现问题",
+        "id": "Q.01.000005505",
+        "title": "【UN10】- NFC - 恢复出厂设置重启后，状态栏没有NFC图标(过了3分钟都没有显示，NFC状态栏和设置中NFC开关显示NFC是打开状态，且读卡成功）（小铁架安装在大铁架上测试）",
         "model": "UN10",
-        "severity": "D：优化建议",
+        "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "司奇",
+        "person": "万青刚",
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005523",
-        "title": "【UN10R】-开关机-开机声音偶尔会卡顿",
-        "model": "UN10R",
-        "severity": "D：优化建议",
+        "id": "Q.01.000005504",
+        "title": "【UN10】- NFC - 重启进入主界面后需要11s才显示NFC图标（小铁架安装在大铁架上测试）",
+        "model": "UN10",
+        "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "司奇",
+        "person": "万青刚",
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005255",
-        "title": "【UN10-PVT-SMT不良品10台】2101烧录失败",
-        "model": "UN10",
+        "id": "Q.01.000005521",
+        "title": "【UN10R】-recovery-接U盘，进到recovery后，开机到nexgo界面后就灭屏，开机失败。",
+        "model": "UN10R",
         "severity": "C：一般",
-        "type": "其它",
+        "type": "功能类",
         "status": "已分配",
-        "person": "雷泽",
-        "frequency": "必现"
-      }
-    ],
-    "通讯组黄林欢": [
+        "person": "刘泽祥",
+        "frequency": "偶发"
+      },
       {
-        "id": "Q.01.000005503",
-        "title": "【UN10R】-WIFI-关于设备里的设备WLAN MAC地址显示置灰",
+        "id": "Q.01.000005474",
+        "title": "【UN10R】-NTAG-插外电亮屏待机第二天检查应用自动退出，0507重新挂测，0508上午查看机器发现机器死机",
+        "model": "UN10R",
+        "severity": "B：严重",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "路江飞",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005473",
+        "title": "【UN10R】-USB-重启后按三次reset键进入Developer Mode耗时超过1min，对比开机后进入Developer Mode耗时约10s偏慢",
         "model": "UN10R",
         "severity": "D：优化建议",
         "type": "功能类",
         "status": "已分配",
-        "person": "郑思捷",
+        "person": "刘泽祥",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005551",
-        "title": "【UN10】- 蓝牙 - 在周围没有外设的环境默认能够搜索到虚拟蓝牙设备printer",
-        "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "严立言",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005509",
-        "title": "【UN10R】-WIFI-连接热点-高级设置-配置静态ip时候，5个输入框里面有示例背景但是没有置灰，看着就像是有实际内容一样",
+        "id": "Q.01.000005476",
+        "title": "【UN10R】-USB-NTAG待机过程中按三次reset键不退出Developer Mode",
         "model": "UN10R",
-        "severity": "D：优化建议",
+        "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "郑思捷",
-        "frequency": "必现"
+        "person": "刘泽祥",
+        "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005242",
-        "title": "【UN10-PVT】耦合测试个别有启动AP端的CDC",
-        "model": "UN10",
+        "id": "Q.01.000005481",
+        "title": "【UN10R】-NTAG-低功耗后不关闭卡模拟挂测，读卡到24次后未继续，投屏检查机器，NTAG应用已退出，并且0408 log时间变成-6xxx，怀疑机器重启并修改了时区",
+        "model": "UN10R",
         "severity": "C：一般",
-        "type": "其它",
+        "type": "功能类",
         "status": "已分配",
-        "person": "严立言",
-        "frequency": "必现"
+        "person": "路江飞",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005478",
+        "title": "【UN10R】-USB-NTAG挂机一晚第二天小屏左下方不显示Developer Mode字样但投屏可正常连接，按三次reset键后响滴声显示U盘图标，投屏断连（插U盘导埋点日志），再次按三次reset键后响滴声自动重连投屏",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "刘泽祥",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000004886",
+        "title": "【UN10】-支付应用-输入金额界面偶先死机，立即设备重启_同步UN10P",
+        "model": "UN10",
+        "severity": "B：严重",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "路江飞,丘志鹏",
+        "frequency": "偶发"
       }
     ],
-    "安卓组刘锐峰": [
+    "硬件组向阳": [
       {
-        "id": "Q.01.000005528",
-        "title": "【UN10R】-整机-左下角的developer Mode的图标，状态栏的闹钟图标，在投屏工具上没显示。",
-        "model": "UN10",
-        "severity": "D：优化建议",
+        "id": "Q.01.000005536",
+        "title": "【UN10R】 -NFC-自由态、全包状态手机兼容性测试传音1手机0cm读卡无反应",
+        "model": "UN10R",
+        "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "沈磊",
+        "person": "陈军,陈双明",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005490",
-        "title": "【UN10】-系统UI-当语言设置为中文且开启24小时制时，左上角的时间显示不全",
+        "id": "Q.01.000005486",
+        "title": "【UN10】-LCD-不同电压屏幕显示-UN10-C口用可调电源输入5.25V时电压会自动升压（C口线换一面插入机器就正常，-用N86P、N82试了C口线测试没有问题）-可调电源输入电压5V时C线口两面都正常",
         "model": "UN10",
-        "severity": "D：优化建议",
+        "severity": "C：一般",
+        "type": "稳定性",
+        "status": "已分配",
+        "person": "李德权",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005507",
+        "title": "【UN10】- NFC - 在标准应用交易和系统界面测试时，高概率出现挥1次连续多次读卡的现象(连续有NFC读卡响声)（小铁架安装在大铁架上测试）",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "陈双明",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005488",
+        "title": "【UN10】-移动通讯-无线3G发射功率频段BAND1中高不达标准及BAND2中高为14.98~16.03dBm不达标准",
+        "model": "UN10",
+        "severity": "C：一般",
         "type": "性能类",
         "status": "已分配",
-        "person": "沈磊",
+        "person": "林裕敏",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005525",
-        "title": "【UN10】-系统UI-状态栏的时间图标与中间显示部分有干涉。",
-        "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "功能类",
+        "id": "Q.01.000005471",
+        "title": "【UN10】-LCD-HBS屏-样机底部有漏光（UN10P100093)",
+        "model": "UN10P",
+        "severity": "C：一般",
+        "type": "硬件类",
         "status": "已分配",
-        "person": "沈磊",
-        "frequency": "必现"
+        "person": "王冠",
+        "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005557",
-        "title": "【UN10R】-系统UI-状态栏左侧时间与右侧4G、wifi 等图标未居中对齐",
+        "id": "Q.01.000005264",
+        "title": "【UN10-PVT-不良品1台花屏】花屏",
         "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "功能类",
+        "severity": "C：一般",
+        "type": "其它",
         "status": "已分配",
-        "person": "沈磊",
+        "person": "王冠",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005491",
-        "title": "【UN10】-显示-当休眠时间设置为15秒，机身号为UN10W200008的这款，出现了屏幕不自动熄屏的现象",
+        "id": "Q.01.000004838",
+        "title": "【UN10 TR3专家问题】屏幕保护膜多气泡，显得特别劣质",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "体验性",
+        "status": "已分配",
+        "person": "王冠",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000003957",
+        "title": "【UN10R】-NTAG -传音手机读取时出现挥一次读多次卡的现象（测试20次，出现6次多次读卡）",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "修复中",
+        "person": "陈双明",
+        "frequency": "高发"
+      },
+      {
+        "id": "Q.01.000003956",
+        "title": "【UN10RS】-NTAG-传音手机0cm时读取成功率低（读取20次，成功6次） 备注-UN10RS包导电膜或者不包导电膜、UN10R都是一样",
+        "model": "UN10RS",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "修复中",
+        "person": "陈双明",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000003959",
+        "title": "【UN10】-NTAG- 传音手机0cm时读取成功率低（读取20次，成功9次）",
         "model": "UN10",
         "severity": "C：一般",
         "type": "功能类",
+        "status": "修复中",
+        "person": "陈双明",
+        "frequency": "高发"
+      }
+    ],
+    "单片机黄文潘": [
+      {
+        "id": "Q.01.000005548",
+        "title": "【UN10R】-NFC-NFC与非接互斥测试，NFC读完卡后不移卡，开启非接循环读卡，下拉状态栏关闭NFC20次后，非接读卡、NFC读卡没反应",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
         "status": "已分配",
-        "person": "刘俊华",
+        "person": "黄文潘",
         "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005477",
+        "title": "【UN10R】-NFC-开启NFC测试完NFC读卡后打开非接读卡过程中读到NFC，停止非接检卡状态栏非接图标未消失此时读卡不成功",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "修复中",
+        "person": "黄文潘",
+        "frequency": "偶发"
+      }
+    ],
+    "SE胡文": [
+      {
+        "id": "Q.01.000005530",
+        "title": "【UN10R】-开关机-小屏开机时长43秒。",
+        "model": "UN10R",
+        "severity": "B：严重",
+        "type": "性能类",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005534",
+        "title": "【UN10R】-NFC-全包模式下招商银行卡尾号2255在0cm拍卡无反应",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "兼容性",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005517",
+        "title": "【UN10】- NTAG - 开启卡模拟自动休眠后，手机可以读取到卡模拟数据（小铁架安装在大铁架上测试）",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005531",
+        "title": "【UN10】-开关机-显示桌面时间的开机时长44秒。",
+        "model": "UN10",
+        "severity": "B：严重",
+        "type": "性能类",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005537",
+        "title": "【UN10R】-非接-全包模式下招商银行卡尾号2255在0cm拍卡无反应",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005482",
+        "title": "【UN10R】-PSAM-机器PSAM1-PSAM4插入PSAM卡，PSAM2失败",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000002481",
+        "title": "【UN10RS】-电源模块-显示屏下电时序，重启下电时，RST,IOVCC同时下电，3V3距RST不足120ms",
+        "model": "UN10RS",
+        "severity": "C：一般",
+        "type": "硬件类",
+        "status": "已拒绝",
+        "person": "胡文",
+        "frequency": "必现"
+      }
+    ],
+    "PQA戚飘红": [
+      {
+        "id": "Q.01.000005553",
+        "title": "【UN10R】-整机-UN10R，IK09冲击测试打非接图标位置，内部结构裂开，外壳完好",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "硬件类",
+        "status": "已拒绝",
+        "person": "戚飘红",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005533",
+        "title": "【UN10R】-PSAM-装入PSAM拓展卡槽时易压坏PSAM2卡槽",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已拒绝",
+        "person": "戚飘红",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005253",
+        "title": "【UN10-PVT-不良品2台】光感失败",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "戚飘红",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005216",
+        "title": "【UN10-PVT】UN10R配置的非接天线偏长 22.80.0045",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已拒绝",
+        "person": "戚飘红",
+        "frequency": "必现"
       }
     ],
     "安卓组霍耀光": [
+      {
+        "id": "Q.01.000005511",
+        "title": "【UN10】-日志-偶现，升级去掉屏保、24小时不重启的定制包后，机器触摸卡顿，鼠标点击成功，5分钟后，恢复正常。",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "郑腾交",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005512",
+        "title": "【UN10】-整机-设置5分钟灭屏，灭屏后，距离感应8秒才唤醒，唤醒后卡顿。",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "林政和",
+        "frequency": "偶发"
+      },
       {
         "id": "Q.01.000005522",
         "title": "【UN10】-USB-recovery下，从Host切到devices需要重新安装com口驱动。",
@@ -581,36 +803,6 @@ const dashboardData = {
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005516",
-        "title": "【UN10R】-USB-投屏后，拔线后，一段时间后，低功耗唤醒慢，机器卡顿。",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "霍耀光",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005511",
-        "title": "【UN10】-日志-偶现，升级去掉屏保、24小时不重启的定制包后，机器触摸卡顿，鼠标点击成功，5分钟后，恢复正常。",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "郑腾交",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005515",
-        "title": "【UN10】- 系统 - 操作过程中屏幕触碰无反应，过了约5s才恢复正常",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "霍耀光",
-        "frequency": "偶发"
-      },
-      {
         "id": "Q.01.000005524",
         "title": "【UN10R】-距离感应-小屏的机器唤醒慢，实测1.5秒。",
         "model": "UN10R",
@@ -621,13 +813,23 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005512",
-        "title": "【UN10】-整机-设置5分钟灭屏，灭屏后，距离感应8秒才唤醒，唤醒后卡顿。",
+        "id": "Q.01.000005516",
+        "title": "【UN10R】-USB-投屏后，拔线后，一段时间后，低功耗唤醒慢，机器卡顿。",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "霍耀光",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005515",
+        "title": "【UN10】- 系统 - 操作过程中屏幕触碰无反应，过了约5s才恢复正常",
         "model": "UN10",
         "severity": "C：一般",
         "type": "功能类",
         "status": "已分配",
-        "person": "林政和",
+        "person": "霍耀光",
         "frequency": "偶发"
       },
       {
@@ -671,6 +873,26 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
+        "id": "Q.01.000004782",
+        "title": "【UN10R】-NTAG-开启卡模拟功耗测试，功耗值154.88mA",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "林政和",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004780",
+        "title": "【UN10R】-非接-开启非接时低功耗测试，功耗值140.31mA",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "林政和",
+        "frequency": "必现"
+      },
+      {
         "id": "Q.01.000004726",
         "title": "【UN10P】-非接-非接读卡测试，概率出现大于100ms",
         "model": "UN10P",
@@ -678,434 +900,6 @@ const dashboardData = {
         "type": "性能类",
         "status": "已分配",
         "person": "陈玉杰",
-        "frequency": "必现"
-      }
-    ],
-    "安卓组唐朝": [
-      {
-        "id": "Q.01.000005529",
-        "title": "【UN10R】-整机-机器接PC端，recovery系统下，投屏工具的左上角显示机身号为空。",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "刘泽祥",
-        "frequency": "高发"
-      },
-      {
-        "id": "Q.01.000005505",
-        "title": "【UN10】- NFC - 恢复出厂设置重启后，状态栏没有NFC图标(过了3分钟都没有显示，NFC状态栏和设置中NFC开关显示NFC是打开状态，且读卡成功）（小铁架安装在大铁架上测试）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "万青刚",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005506",
-        "title": "【UN10】- NFC - 2张A卡重叠并同时读取3次后，重新读取其中1张卡成功后，另一张卡读取无反应且挥几次后，设备异常(自动重启)（小铁架安装在大铁架上测试）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "路江飞",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005510",
-        "title": "【UN10】-日志-偶现，0408里的日志时间的小时前有负数。",
-        "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "路江飞",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005502",
-        "title": "【UN10】- NFC - 系统设置中，NFC菜单项提示语是“先安装付款应用，然后才能使用感应式付款功能”（预期提示语是“先安装付款应用，然后才能使用触碰付款功能”）(场景 小铁架安装在大铁架上测试)",
-        "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "邓峻",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005558",
-        "title": "【UN10R】-开关机-新机器UN10R100034，开机后快速按复位按键3下，机器有概率黑屏重启，如视频所示(抓虫bug)",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "性能类",
-        "status": "已分配",
-        "person": "刘泽祥",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005521",
-        "title": "【UN10R】-recovery-接U盘，进到recovery后，开机到nexgo界面后就灭屏，开机失败。",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "刘泽祥",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005562",
-        "title": "【UN10】-相机-同样一个摄像头，拍照和摄像的效果差异明显，拍照界面偏绿，录像界面偏红色(抓虫bug)",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "龚棕塘",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005504",
-        "title": "【UN10】- NFC - 重启进入主界面后需要11s才显示NFC图标（小铁架安装在大铁架上测试）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "万青刚",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005473",
-        "title": "【UN10R】-USB-重启后按三次reset键进入Developer Mode耗时超过1min，对比开机后进入Developer Mode耗时约10s偏慢",
-        "model": "UN10R",
-        "severity": "D：优化建议",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "刘泽祥",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005474",
-        "title": "【UN10R】-NTAG-插外电亮屏待机第二天检查应用自动退出，0507重新挂测，0508上午查看机器发现机器死机",
-        "model": "UN10R",
-        "severity": "B：严重",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "路江飞",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005481",
-        "title": "【UN10R】-NTAG-低功耗后不关闭卡模拟挂测，读卡到24次后未继续，投屏检查机器，NTAG应用已退出，并且0408 log时间变成-6xxx，怀疑机器重启并修改了时区",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "路江飞",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005476",
-        "title": "【UN10R】-USB-NTAG待机过程中按三次reset键不退出Developer Mode",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "刘泽祥",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005478",
-        "title": "【UN10R】-USB-NTAG挂机一晚第二天小屏左下方不显示Developer Mode字样但投屏可正常连接，按三次reset键后响滴声显示U盘图标，投屏断连（插U盘导埋点日志），再次按三次reset键后响滴声自动重连投屏",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "刘泽祥",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000004886",
-        "title": "【UN10】-支付应用-输入金额界面偶先死机，立即设备重启_同步UN10P",
-        "model": "UN10",
-        "severity": "B：严重",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "路江飞,丘志鹏",
-        "frequency": "偶发"
-      }
-    ],
-    "硬件组向阳": [
-      {
-        "id": "Q.01.000005507",
-        "title": "【UN10】- NFC - 在标准应用交易和系统界面测试时，高概率出现挥1次连续多次读卡的现象(连续有NFC读卡响声)（小铁架安装在大铁架上测试）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "陈双明",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005486",
-        "title": "【UN10】-LCD-不同电压屏幕显示-UN10-C口用可调电源输入5.25V时电压会自动升压（C口线换一面插入机器就正常，-用N86P、N82试了C口线测试没有问题）-可调电源输入电压5V时C线口两面都正常",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "稳定性",
-        "status": "已分配",
-        "person": "李德权",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005536",
-        "title": "【UN10R】 -NFC-自由态、全包状态手机兼容性测试传音1手机0cm读卡无反应",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "陈军,陈双明",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005488",
-        "title": "【UN10】-移动通讯-无线3G发射功率频段BAND1中高不达标准及BAND2中高为14.98~16.03dBm不达标准",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "性能类",
-        "status": "已分配",
-        "person": "林裕敏",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005482",
-        "title": "【UN10R】-PSAM-机器PSAM1-PSAM4插入PSAM卡，PSAM2失败",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "李德权",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005471",
-        "title": "【UN10】-LCD-HBS屏-样机底部有漏光（UN10P100093)",
-        "model": "UN10P",
-        "severity": "C：一般",
-        "type": "硬件类",
-        "status": "已分配",
-        "person": "王冠",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005264",
-        "title": "【UN10-PVT-不良品1台花屏】花屏",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "王冠",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004838",
-        "title": "【UN10 TR3专家问题】屏幕保护膜多气泡，显得特别劣质",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "体验性",
-        "status": "已分配",
-        "person": "王冠",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000003959",
-        "title": "【UN10】-NTAG- 传音手机0cm时读取成功率低（读取20次，成功9次）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "修复中",
-        "person": "陈双明",
-        "frequency": "高发"
-      },
-      {
-        "id": "Q.01.000003956",
-        "title": "【UN10RS】-NTAG-传音手机0cm时读取成功率低（读取20次，成功6次） 备注-UN10RS包导电膜或者不包导电膜、UN10R都是一样",
-        "model": "UN10RS",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "修复中",
-        "person": "陈双明",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000003957",
-        "title": "【UN10R】-NTAG -传音手机读取时出现挥一次读多次卡的现象（测试20次，出现6次多次读卡）",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "修复中",
-        "person": "陈双明",
-        "frequency": "高发"
-      }
-    ],
-    "SE胡文": [
-      {
-        "id": "Q.01.000005531",
-        "title": "【UN10】-开关机-显示桌面时间的开机时长44秒。",
-        "model": "UN10",
-        "severity": "B：严重",
-        "type": "性能类",
-        "status": "已拒绝",
-        "person": "胡文",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005533",
-        "title": "【UN10R】-PSAM-装入PSAM拓展卡槽时易压坏PSAM2卡槽",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已拒绝",
-        "person": "胡文",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000005534",
-        "title": "【UN10R】-NFC-全包模式下招商银行卡尾号2255在0cm拍卡无反应",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "兼容性",
-        "status": "已拒绝",
-        "person": "胡文",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005530",
-        "title": "【UN10R】-开关机-小屏开机时长43秒。",
-        "model": "UN10R",
-        "severity": "B：严重",
-        "type": "性能类",
-        "status": "已拒绝",
-        "person": "胡文",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005517",
-        "title": "【UN10】- NTAG - 开启卡模拟自动休眠后，手机可以读取到卡模拟数据（小铁架安装在大铁架上测试）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已拒绝",
-        "person": "胡文",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000002481",
-        "title": "【UN10RS】-电源模块-显示屏下电时序，重启下电时，RST,IOVCC同时下电，3V3距RST不足120ms",
-        "model": "UN10RS",
-        "severity": "C：一般",
-        "type": "硬件类",
-        "status": "已拒绝",
-        "person": "胡文",
-        "frequency": "必现"
-      }
-    ],
-    "结构组赵林立": [
-      {
-        "id": "Q.01.000005553",
-        "title": "【UN10R】-整机-UN10R，IK09冲击测试打非接图标位置，内部结构裂开，外壳完好",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "硬件类",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005214",
-        "title": "【UN10-PVT】2.3寸屏面壳视窗口来料脏污、划痕情况严重30.01.6933",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005218",
-        "title": "【UN10-PVT】耳机胶塞缺胶",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005211",
-        "title": "【UN10-PVT】非接符号有气纹印以及划伤  30.01.7123",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005212",
-        "title": "【UN10-PVT】非接符号装入面壳窗口内，白边不均匀 30.01.6933",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005217",
-        "title": "【UN10-PVT】UN10R配置咪头装入面壳后很松动，UN10/UN10P配置咪头装入面壳后轻微松动",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005213",
-        "title": "【UN10-PVT】非接符号来料为整袋包装，有划伤、刮花现象 30.01.7123",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005220",
-        "title": "【UN10-PVT】底壳有熔接线 30.01.6928",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005216",
-        "title": "【UN10-PVT】UN10R配置的非接天线偏长 22.80.0045",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已分配",
-        "person": "夏小平",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004843",
-        "title": "【UN10 TR3专家问题】UN10R屏幕底部有一条很明显的波纹",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "硬件类",
-        "status": "已分配",
-        "person": "夏小平",
         "frequency": "必现"
       }
     ],
@@ -1141,9 +935,9 @@ const dashboardData = {
         "frequency": "高发"
       },
       {
-        "id": "Q.01.000005206",
-        "title": "【UN10R】-支付应用-撤销/退货，投屏输入凭证号/参考号时，点键盘上的00没有反应",
-        "model": "UN10R",
+        "id": "Q.01.000005204",
+        "title": "【UN10P】-支付应用-插卡交易完成后，不拔卡，没有拔卡的提示和滴滴提示音",
+        "model": "UN10P",
         "severity": "D：优化建议",
         "type": "功能类",
         "status": "已分配",
@@ -1151,9 +945,9 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005204",
-        "title": "【UN10P】-支付应用-插卡交易完成后，不拔卡，没有拔卡的提示和滴滴提示音",
-        "model": "UN10P",
+        "id": "Q.01.000005206",
+        "title": "【UN10R】-支付应用-撤销/退货，投屏输入凭证号/参考号时，点键盘上的00没有反应",
+        "model": "UN10R",
         "severity": "D：优化建议",
         "type": "功能类",
         "status": "已分配",
@@ -1181,36 +975,6 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004889",
-        "title": "【UN10R】-支付应用-非接图标灯显示不符合产品需求_同步UN10RS；",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "修复中",
-        "person": "丘志鹏",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004885",
-        "title": "【UN10】-支付应用-拍卡界面产品图片不对，标题文字有重叠错误_同步UN10P",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "修复中",
-        "person": "丘志鹏",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004888",
-        "title": "【UN10R】-支付应用-交易金额文字放大，参考附图，把底下文字变成图标展示_同步UN10RS；",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "修复中",
-        "person": "丘志鹏",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000004887",
         "title": "【UN10P】-支付应用-IC卡指示灯显示不符合产品要求",
         "model": "UN10P",
@@ -1231,11 +995,31 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004824",
-        "title": "【UN10 TR3专家问题】研发需要提供UN10的客户调试文档",
+        "id": "Q.01.000004888",
+        "title": "【UN10R】-支付应用-交易金额文字放大，参考附图，把底下文字变成图标展示_同步UN10RS；",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "修复中",
+        "person": "丘志鹏",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004885",
+        "title": "【UN10】-支付应用-拍卡界面产品图片不对，标题文字有重叠错误_同步UN10P",
         "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "可维护性类",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "修复中",
+        "person": "丘志鹏",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004889",
+        "title": "【UN10R】-支付应用-非接图标灯显示不符合产品需求_同步UN10RS；",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
         "status": "修复中",
         "person": "丘志鹏",
         "frequency": "必现"
@@ -1251,10 +1035,30 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
+        "id": "Q.01.000004824",
+        "title": "【UN10 TR3专家问题】研发需要提供UN10的客户调试文档",
+        "model": "UN10",
+        "severity": "D：优化建议",
+        "type": "可维护性类",
+        "status": "修复中",
+        "person": "丘志鹏",
+        "frequency": "必现"
+      },
+      {
         "id": "Q.01.000004490",
         "title": "【UN10】-支付应用-UN10 Sale/Void/Refund/Balance 用卡流程需屏蔽插卡模式，且需优化UN10/UN10P/UN10R/UN10RS机型的读卡UI",
         "model": "UN10P",
         "severity": "C：一般",
+        "type": "功能类",
+        "status": "修复中",
+        "person": "丘志鹏",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004497",
+        "title": "【UN10R】-支付应用-发起交易读卡界面，非接指示灯未点亮",
+        "model": "UN10P",
+        "severity": "B：严重",
         "type": "功能类",
         "status": "已分配",
         "person": "丘志鹏",
@@ -1271,16 +1075,6 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004497",
-        "title": "【UN10R】-支付应用-发起交易读卡界面，非接指示灯未点亮",
-        "model": "UN10P",
-        "severity": "B：严重",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "丘志鹏",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000004142",
         "title": "【UN10P】-支付应用-做完撤销交易后点Report，应用重启，进入签到界面",
         "model": "UN10P",
@@ -1289,6 +1083,110 @@ const dashboardData = {
         "status": "已分配",
         "person": "丘志鹏",
         "frequency": "偶发"
+      }
+    ],
+    "卡组张辉权": [
+      {
+        "id": "Q.01.000005527",
+        "title": "【UN10】 -非接–Sony SO-01L在3.5cm高概率出现挥1次连续读取多次的现象 （模拟全包嵌入式安装）",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "张辉权",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005513",
+        "title": "【UN10】- NTAG - 在飞行模式下开启NATG的低功耗电流是53.67mA（预期小于50mA）（UN10不带LAN口）（小铁架安装在大铁架上测试）",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "唐建斌",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005508",
+        "title": "【UN10】- NTAG - 传音1手机读取883字节速度为507.6ms（预期结果小于500ms）（小铁架安装在大铁架上测试）_同步UN1R 521.22ms",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "罗绘东",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005535",
+        "title": "【UN10R】-NTAG-传音1手机读取883字节速度超过500ms，预期小于500ms",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "性能类",
+        "status": "已分配",
+        "person": "罗绘东",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005475",
+        "title": "【UN10R】-NTAG-循环开关卡模拟成功率测试读卡到843次停止，0507晚上挂测读卡到918次停止（已卸载PT程序）",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "罗绘东",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004041",
+        "title": "【UN10R】-NTAG-持续开启NTAG，NTAG会自动关闭 备注-此时非接指示灯处于点亮状态",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "罗绘东",
+        "frequency": "偶发"
+      }
+    ],
+    "通讯组黄林欢": [
+      {
+        "id": "Q.01.000005509",
+        "title": "【UN10R】-WIFI-连接热点-高级设置-配置静态ip时候，5个输入框里面有示例背景但是没有置灰，看着就像是有实际内容一样",
+        "model": "UN10R",
+        "severity": "D：优化建议",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "郑思捷",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005503",
+        "title": "【UN10R】-WIFI-关于设备里的设备WLAN MAC地址显示置灰",
+        "model": "UN10R",
+        "severity": "D：优化建议",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "郑思捷",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005551",
+        "title": "【UN10】- 蓝牙 - 在周围没有外设的环境默认能够搜索到虚拟蓝牙设备printer",
+        "model": "UN10",
+        "severity": "D：优化建议",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "严立言",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005242",
+        "title": "【UN10-PVT】耦合测试个别有启动AP端的CDC",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "严立言",
+        "frequency": "必现"
       }
     ],
     "效能组崔龙龙": [
@@ -1301,71 +1199,121 @@ const dashboardData = {
         "status": "已分配",
         "person": "彭湃",
         "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004782",
-        "title": "【UN10R】-NTAG-开启卡模拟功耗测试，功耗值154.88mA",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "崔龙龙",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004780",
-        "title": "【UN10R】-非接-开启非接时低功耗测试，功耗值140.31mA",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已分配",
-        "person": "崔龙龙",
-        "frequency": "必现"
       }
     ],
-    "单片机黄文潘": [
+    "其他": [
       {
-        "id": "Q.01.000005548",
-        "title": "【UN10R】-NFC-NFC与非接互斥测试，NFC读完卡后不移卡，开启非接循环读卡，下拉状态栏关闭NFC20次后，非接读卡、NFC读卡没反应",
+        "id": "Q.01.000005523",
+        "title": "【UN10R】-开关机-开机声音偶尔会卡顿",
         "model": "UN10R",
-        "severity": "C：一般",
+        "severity": "D：优化建议",
         "type": "功能类",
         "status": "已分配",
-        "person": "黄文潘",
+        "person": "司奇",
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000005477",
-        "title": "【UN10R】-NFC-开启NFC测试完NFC读卡后打开非接读卡过程中读到NFC，停止非接检卡状态栏非接图标未消失此时读卡不成功",
-        "model": "UN10R",
-        "severity": "C：一般",
+        "id": "Q.01.000005498",
+        "title": "【UN10】-USB-u盘识别不成功。消息显示u盘出现问题",
+        "model": "UN10",
+        "severity": "D：优化建议",
         "type": "功能类",
-        "status": "修复中",
-        "person": "黄文潘",
+        "status": "已分配",
+        "person": "司奇",
         "frequency": "偶发"
-      }
-    ],
-    "测试部汪肖肖": [
+      },
       {
-        "id": "Q.01.000005537",
-        "title": "【UN10R】-非接-全包模式下招商银行卡尾号2255在0cm拍卡无反应",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "测试审核",
-        "person": "汪肖肖",
-        "frequency": "必现"
-      }
-    ],
-    "PQA戚飘红": [
-      {
-        "id": "Q.01.000005253",
-        "title": "【UN10-PVT-不良品2台】光感失败",
+        "id": "Q.01.000005255",
+        "title": "【UN10-PVT-SMT不良品10台】2101烧录失败",
         "model": "UN10",
         "severity": "C：一般",
         "type": "其它",
         "status": "已分配",
-        "person": "戚飘红",
+        "person": "雷泽",
+        "frequency": "必现"
+      }
+    ],
+    "安卓组刘锐峰": [
+      {
+        "id": "Q.01.000005491",
+        "title": "【UN10】-显示-当休眠时间设置为15秒，机身号为UN10W200008的这款，出现了屏幕不自动熄屏的现象",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已分配",
+        "person": "刘俊华",
+        "frequency": "偶发"
+      }
+    ],
+    "结构组赵林立": [
+      {
+        "id": "Q.01.000005214",
+        "title": "【UN10-PVT】2.3寸屏面壳视窗口来料脏污、划痕情况严重30.01.6933",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "夏小平",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005217",
+        "title": "【UN10-PVT】UN10R配置咪头装入面壳后很松动，UN10/UN10P配置咪头装入面壳后轻微松动",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "夏小平",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005218",
+        "title": "【UN10-PVT】耳机胶塞缺胶",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "夏小平",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005212",
+        "title": "【UN10-PVT】非接符号装入面壳窗口内，白边不均匀 30.01.6933",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "夏小平",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005211",
+        "title": "【UN10-PVT】非接符号有气纹印以及划伤  30.01.7123",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "夏小平",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005220",
+        "title": "【UN10-PVT】底壳有熔接线 30.01.6928",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "其它",
+        "status": "已分配",
+        "person": "夏小平",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004843",
+        "title": "【UN10 TR3专家问题】UN10R屏幕底部有一条很明显的波纹",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "硬件类",
+        "status": "已分配",
+        "person": "夏小平",
         "frequency": "必现"
       }
     ]
@@ -1383,18 +1331,28 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005560",
-        "title": "【UN10】-音频外放-单项测试-录音，测试界面只记录分贝大小，不还原记录到的声音并播放，之前都是喊着123123，然后录下来，重播一遍，以检测MIC和喇叭是否有问题，觉得这个只测试分贝值不严谨(抓虫bug)",
+        "id": "Q.01.000005528",
+        "title": "【UN10R】-整机-左下角的developer Mode的图标，状态栏的闹钟图标，在投屏工具上没显示。",
         "model": "UN10",
-        "severity": "C：一般",
+        "severity": "D：优化建议",
         "type": "功能类",
         "status": "已修复待验证",
         "person": "汪肖肖",
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005570",
-        "title": "【UN10】-远程下载-XTMS读取读卡次数没有权限Failure in readFile",
+        "id": "Q.01.000005555",
+        "title": "【UN10】-耳机-插入耳机后，用耳机录音音量小(抓虫问题)",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "汪肖肖",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000005525",
+        "title": "【UN10】-系统UI-状态栏的时间图标与中间显示部分有干涉。",
         "model": "UN10",
         "severity": "D：优化建议",
         "type": "功能类",
@@ -1413,24 +1371,24 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000005555",
-        "title": "【UN10】-耳机-插入耳机后，用耳机录音音量小(抓虫问题)",
+        "id": "Q.01.000005560",
+        "title": "【UN10】-音频外放-单项测试-录音，测试界面只记录分贝大小，不还原记录到的声音并播放，之前都是喊着123123，然后录下来，重播一遍，以检测MIC和喇叭是否有问题，觉得这个只测试分贝值不严谨(抓虫bug)",
         "model": "UN10",
         "severity": "C：一般",
         "type": "功能类",
         "status": "已修复待验证",
         "person": "汪肖肖",
-        "frequency": "偶发"
+        "frequency": "必现"
       },
       {
-        "id": "Q.01.000005526",
-        "title": "【UN10】-相机-偶现，查看录像记录时，机器端弹出崩溃。",
+        "id": "Q.01.000005557",
+        "title": "【UN10R】-系统UI-状态栏左侧时间与右侧4G、wifi 等图标未居中对齐",
         "model": "UN10",
-        "severity": "C：一般",
+        "severity": "D：优化建议",
         "type": "功能类",
         "status": "已修复待验证",
         "person": "汪肖肖",
-        "frequency": "偶发"
+        "frequency": "必现"
       },
       {
         "id": "Q.01.000005518",
@@ -1441,6 +1399,26 @@ const dashboardData = {
         "status": "已修复待验证",
         "person": "汪肖肖",
         "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005570",
+        "title": "【UN10】-远程下载-XTMS读取读卡次数没有权限Failure in readFile",
+        "model": "UN10",
+        "severity": "D：优化建议",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "汪肖肖",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005526",
+        "title": "【UN10】-相机-偶现，查看录像记录时，机器端弹出崩溃。",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "汪肖肖",
+        "frequency": "偶发"
       },
       {
         "id": "Q.01.000004666",
@@ -1485,6 +1463,26 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
+        "id": "Q.01.000005490",
+        "title": "【UN10】-系统UI-当语言设置为中文且开启24小时制时，左上角的时间显示不全",
+        "model": "UN10",
+        "severity": "D：优化建议",
+        "type": "性能类",
+        "status": "已修复待验证",
+        "person": "宋玲",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000005483",
+        "title": "【UN10】-WIFI-5G发射功率 11 A 频段149、157、165为7.18~7.69dBm不达标准（要求A标要求发射功率大于10dBm，B标要求发射功率大于8dBm）",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "性能类",
+        "status": "已修复待验证",
+        "person": "杨志天",
+        "frequency": "必现"
+      },
+      {
         "id": "Q.01.000005493",
         "title": "【UN10】-图库-在文件管理中GIF格式图片无法打开",
         "model": "UN10",
@@ -1497,16 +1495,6 @@ const dashboardData = {
       {
         "id": "Q.01.000005485",
         "title": "【UN10】-WIFI-5G接收灵敏试度 11 A 频段149、157、165为64.2~64.41dBm不达标准（A标要求接收灵敏度优于-67dBm，B标要求接收灵敏度优于-65dBm）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "性能类",
-        "status": "已修复待验证",
-        "person": "杨志天",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005483",
-        "title": "【UN10】-WIFI-5G发射功率 11 A 频段149、157、165为7.18~7.69dBm不达标准（要求A标要求发射功率大于10dBm，B标要求发射功率大于8dBm）",
         "model": "UN10",
         "severity": "C：一般",
         "type": "性能类",
@@ -1537,20 +1525,10 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004521",
-        "title": "【UN10RS】-静电-+8KV接触放电拓展坞USB口，-8KV接触放电网口，+15kV空气放电MDB，自动重启",
-        "model": "UN10RS",
-        "severity": "C：一般",
-        "type": "硬件类",
-        "status": "已修复待验证",
-        "person": "孟德宇",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000004523",
-        "title": "【UN10RS】-非接-打开tag功能瞬间，电流最大值4.07A，适配器标称3A",
+        "id": "Q.01.000004527",
+        "title": "【UN10RS】-使用PT程序或MDB demo程序，均无法打开MDB功能，同样操作方法在UN10上功能正常;暂无法测试MDB的EFT测试",
         "model": "UN10",
-        "severity": "B：严重",
+        "severity": "C：一般",
         "type": "硬件类",
         "status": "已修复待验证",
         "person": "李锐杰",
@@ -1577,11 +1555,11 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004518",
-        "title": "【UN10】-显示--屏幕亮度调节 亮度调节至0%、10%、20%时，亮度均为23nit",
+        "id": "Q.01.000004523",
+        "title": "【UN10RS】-非接-打开tag功能瞬间，电流最大值4.07A，适配器标称3A",
         "model": "UN10",
-        "severity": "C：一般",
-        "type": "性能类",
+        "severity": "B：严重",
+        "type": "硬件类",
         "status": "已修复待验证",
         "person": "李锐杰",
         "frequency": "必现"
@@ -1597,26 +1575,6 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004520",
-        "title": "【UN10RS】-静电-+8KV接触放电拓展坞螺丝，样机花屏，需手动重启恢复",
-        "model": "UN10RS",
-        "severity": "B：严重",
-        "type": "硬件类",
-        "status": "已修复待验证",
-        "person": "孟德宇",
-        "frequency": "偶发"
-      },
-      {
-        "id": "Q.01.000004527",
-        "title": "【UN10RS】-使用PT程序或MDB demo程序，均无法打开MDB功能，同样操作方法在UN10上功能正常;暂无法测试MDB的EFT测试",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "硬件类",
-        "status": "已修复待验证",
-        "person": "李锐杰",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000004525",
         "title": "【UN10RS】-接入DC适配器供电+MDB适配器供电时，接入OTG头，此时拔掉MDB适配器，样机会断电重启",
         "model": "UN10",
@@ -1627,13 +1585,43 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004254",
-        "title": "【UN10】-WiFi-802.11a  TIS -64.32dBm，标准要求5G TIS ＜-65dBm",
-        "model": "UN10P",
+        "id": "Q.01.000004518",
+        "title": "【UN10】-显示--屏幕亮度调节 亮度调节至0%、10%、20%时，亮度均为23nit",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "性能类",
+        "status": "已修复待验证",
+        "person": "李锐杰",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004521",
+        "title": "【UN10RS】-静电-+8KV接触放电拓展坞USB口，-8KV接触放电网口，+15kV空气放电MDB，自动重启",
+        "model": "UN10RS",
         "severity": "C：一般",
         "type": "硬件类",
         "status": "已修复待验证",
         "person": "孟德宇",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000004520",
+        "title": "【UN10RS】-静电-+8KV接触放电拓展坞螺丝，样机花屏，需手动重启恢复",
+        "model": "UN10RS",
+        "severity": "B：严重",
+        "type": "硬件类",
+        "status": "已修复待验证",
+        "person": "孟德宇",
+        "frequency": "偶发"
+      },
+      {
+        "id": "Q.01.000004235",
+        "title": "【UN10P】-EMC-以太网幅射测试-配英规测试超，但配MBD电源是正常的，确认为欧规规适配器超",
+        "model": "UN10P",
+        "severity": "C：一般",
+        "type": "性能类",
+        "status": "已修复待验证",
+        "person": "邱诗照",
         "frequency": "必现"
       },
       {
@@ -1647,170 +1635,20 @@ const dashboardData = {
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000004235",
-        "title": "【UN10P】-EMC-以太网幅射测试-配英规测试超，但配MBD电源是正常的，确认为欧规规适配器超",
+        "id": "Q.01.000004254",
+        "title": "【UN10】-WiFi-802.11a  TIS -64.32dBm，标准要求5G TIS ＜-65dBm",
         "model": "UN10P",
         "severity": "C：一般",
-        "type": "性能类",
+        "type": "硬件类",
         "status": "已修复待验证",
-        "person": "邱诗照",
+        "person": "孟德宇",
         "frequency": "必现"
       }
     ],
     "NPI黄恒沵": [
       {
-        "id": "Q.01.000005251",
-        "title": "【UN10-PVT】PCBA来料不良（详情看试产不良清单）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005241",
-        "title": "【UN10-PVT】商用模式自动调节背光被关掉",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005244",
-        "title": "【UN10-PVT】UN10R配置，屏右边100%有线条",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005245",
-        "title": "UN10-PVT】4G天线配套的螺丝有长、短两种规格",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005256",
-        "title": "【UN10-PVT-不良品2台】重力感应显示不完整",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005254",
-        "title": "【UN10-PVT-不良品1台】自动终止测试",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005249",
-        "title": "【UN10-PVT】不支持自动清除0407打开记录",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005250",
-        "title": " 【UN10-PVT】适配器来料没有二维码导致无法与机器单个绑定 （50.01.2199）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005209",
-        "title": "【UN10-PVT】IC卡板PCB及板边无mark，影响贴片精度",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005246",
-        "title": "【UN10-PVT】测试过程部分机器需要多次重新测试才可通过（卡顿）",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000005215",
         "title": "【UN10-PVT】非接天线来料叠放，相邻的整张容易吸附到一起，需要耗时撕离分开 22.80.0045",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005210",
-        "title": "【UN10-PVT】CONN接口板USB座子轻微倾斜",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005247",
-        "title": "【UN10-PVT】带R配置测试LED有两个不亮，需要重复测才可通过",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005240",
-        "title": "【UN10-PVT】测试工具提示GPS、蓝牙、WiFi失败后，无法确认当前搜索到数量",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000005221",
-        "title": "【UN10-PVT】耳机录音与测试工具不同步，稍微慢一些",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "其它",
-        "status": "已修复待验证",
-        "person": "黄恒沵",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004774",
-        "title": "【UN10-DVT2】PCB拼板之间缺少连接筋，工艺边无进板方向",
         "model": "UN10",
         "severity": "C：一般",
         "type": "其它",
@@ -1861,20 +1699,20 @@ const dashboardData = {
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000004851",
-        "title": "【UN10RS】-非接-A卡读卡成功率93.2%，M卡读卡成功率96%（自由态），A卡读卡成功率96%（背后装铁片）",
-        "model": "UN10RS",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已修复待验证",
-        "person": "唐兰",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000004859",
         "title": "【UN10】-烧录包-包装流程-日本配置下完SN时4g版本获取失败",
         "model": "UN10",
         "severity": "B：严重",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "覃锦庆",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004861",
+        "title": "【UN10】-PC工具-耳机测试时耳机语音播报和耳机录音是一起测试（界面只有语音播报完成、录音完成提示），由于界面缺少录音波形进度条，在小屏的机器POS界面没有显示录音波形进度条，容易出现漏测",
+        "model": "UN10",
+        "severity": "C：一般",
         "type": "功能类",
         "status": "已修复待验证",
         "person": "覃锦庆",
@@ -1891,31 +1729,11 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004861",
-        "title": "【UN10】-PC工具-耳机测试时耳机语音播报和耳机录音是一起测试（界面只有语音播报完成、录音完成提示），由于界面缺少录音波形进度条，在小屏的机器POS界面没有显示录音波形进度条，容易出现漏测",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已修复待验证",
-        "person": "覃锦庆",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000004862",
         "title": "【UN10】-烧录包-系统UI-工厂模式下系统桌面测试程序图标显示不清晰（0406测试程序）；",
         "model": "UN10",
         "severity": "D：优化建议",
         "type": "体验性",
-        "status": "已修复待验证",
-        "person": "覃锦庆",
-        "frequency": "必现"
-      },
-      {
-        "id": "Q.01.000004860",
-        "title": "【UN10】-烧录包-SMT测试-显示测试建议去掉（所有配置）",
-        "model": "UN10",
-        "severity": "D：优化建议",
-        "type": "适应性类",
         "status": "已修复待验证",
         "person": "覃锦庆",
         "frequency": "必现"
@@ -1941,6 +1759,26 @@ const dashboardData = {
         "frequency": "偶发"
       },
       {
+        "id": "Q.01.000004851",
+        "title": "【UN10RS】-非接-A卡读卡成功率93.2%，M卡读卡成功率96%（自由态），A卡读卡成功率96%（背后装铁片）",
+        "model": "UN10RS",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "唐兰",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004860",
+        "title": "【UN10】-烧录包-SMT测试-显示测试建议去掉（所有配置）",
+        "model": "UN10",
+        "severity": "D：优化建议",
+        "type": "适应性类",
+        "status": "已修复待验证",
+        "person": "覃锦庆",
+        "frequency": "必现"
+      },
+      {
         "id": "Q.01.000004836",
         "title": "【UN10 TR3专家问题】UN10R 非接卡面壳触摸指示灯，有新工艺需要打UV胶，一致性有风险，要进行允收标准和工艺控制治具。",
         "model": "UN10",
@@ -1959,6 +1797,16 @@ const dashboardData = {
         "status": "已修复待验证",
         "person": "汤海燕",
         "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004509",
+        "title": "【UN10R】-NTAG-打开卡模拟，挂机一晚上，出现一次机器重启 ",
+        "model": "UN10R",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "梁坚",
+        "frequency": "偶发"
       },
       {
         "id": "Q.01.000004498",
@@ -1981,16 +1829,6 @@ const dashboardData = {
         "frequency": "必现"
       },
       {
-        "id": "Q.01.000004509",
-        "title": "【UN10R】-NTAG-打开卡模拟，挂机一晚上，出现一次机器重启 ",
-        "model": "UN10R",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已修复待验证",
-        "person": "梁坚",
-        "frequency": "偶发"
-      },
-      {
         "id": "Q.01.000004038",
         "title": "【UN10R】-NTAG-持续开启NTAG过程中，机器会自动重启",
         "model": "UN10R",
@@ -2001,16 +1839,6 @@ const dashboardData = {
         "frequency": "偶发"
       },
       {
-        "id": "Q.01.000004034",
-        "title": "【UN10】-非接卡-进行非接卡连续读取压力测试，出现读卡异常，提示-8034等异常信息",
-        "model": "UN10",
-        "severity": "C：一般",
-        "type": "功能类",
-        "status": "已修复待验证",
-        "person": "汤海燕",
-        "frequency": "必现"
-      },
-      {
         "id": "Q.01.000004035",
         "title": "【UN10P】-移动通信-重启后概率性获取不到IMEI",
         "model": "UN10",
@@ -2018,6 +1846,16 @@ const dashboardData = {
         "type": "功能类",
         "status": "已修复待验证",
         "person": "贺婷",
+        "frequency": "必现"
+      },
+      {
+        "id": "Q.01.000004034",
+        "title": "【UN10】-非接卡-进行非接卡连续读取压力测试，出现读卡异常，提示-8034等异常信息",
+        "model": "UN10",
+        "severity": "C：一般",
+        "type": "功能类",
+        "status": "已修复待验证",
+        "person": "汤海燕",
         "frequency": "必现"
       },
       {
@@ -2214,14 +2052,14 @@ const dashboardData = {
       "frequency": "必现"
     }
   ],
-  "source": "产品问题报表-20260514-02.xlsx"
+  "source": "产品问题报表 -20260514-05.xlsx"
 };
 </script>
 <script>
     // ===== Burndown data =====
     const burndownDays = ["05-09", "05-11", "05-12", "05-13", "05-14"];
     const burndownData = {"05-09": {"安卓组唐朝": 4, "安卓组霍耀光": 4, "安卓组刘锐峰": 1, "硬件组向阳": 9, "效能组崔龙龙": 3, "单片机黄文潘": 0, "SE胡文": 0, "NPI黄恒沵": 2, "通讯组黄林欢": 0, "卡组张辉权": 1, "结构组赵林立": 10, "PQA戚飘红": 2, "应用丘志鹏": 16, "测试部汪肖肖": 2, "测试部硬件测试": 0, "测试部软件测试": 0}, "05-11": {"安卓组唐朝": 2, "安卓组霍耀光": 5, "安卓组刘锐峰": 0, "硬件组向阳": 8, "效能组崔龙龙": 2, "单片机黄文潘": 0, "SE胡文": 0, "NPI黄恒沵": 0, "通讯组黄林欢": 1, "卡组张辉权": 1, "结构组赵林立": 10, "PQA戚飘红": 2, "应用丘志鹏": 16, "测试部汪肖肖": 0, "测试部硬件测试": 0, "测试部软件测试": 0}, "05-12": {"安卓组唐朝": 8, "安卓组霍耀光": 5, "安卓组刘锐峰": 0, "硬件组向阳": 11, "效能组崔龙龙": 3, "单片机黄文潘": 1, "SE胡文": 0, "NPI黄恒沵": 0, "通讯组黄林欢": 1, "卡组张辉权": 1, "结构组赵林立": 9, "PQA戚飘红": 2, "应用丘志鹏": 17, "测试部汪肖肖": 0, "测试部硬件测试": 0, "测试部软件测试": 0}, "05-13": {"安卓组唐朝": 20, "安卓组霍耀光": 10, "安卓组刘锐峰": 8, "硬件组向阳": 13, "效能组崔龙龙": 6, "单片机黄文潘": 2, "SE胡文": 1, "NPI黄恒沵": 0, "通讯组黄林欢": 4, "卡组张辉权": 5, "结构组赵林立": 10, "PQA戚飘红": 5, "应用丘志鹏": 19, "测试部汪肖肖": 0, "测试部硬件测试": 0, "测试部软件测试": 0}, "05-14": {"安卓组唐朝": 15, "安卓组霍耀光": 12, "安卓组刘锐峰": 5, "硬件组向阳": 13, "效能组崔龙龙": 3, "单片机黄文潘": 2, "SE胡文": 8, "NPI黄恒沵": 0, "通讯组黄林欢": 4, "卡组张辉权": 6, "结构组赵林立": 9, "PQA戚飘红": 2, "应用丘志鹏": 19, "测试部汪肖肖": 0, "测试部硬件测试": 0, "测试部软件测试": 0}};
-    const burndownGroupOrder = ["安卓组唐朝", "安卓组霍耀光", "安卓组刘锐峰", "应用丘志鹏", "硬件组向阳", "结构组赵林立", "SE胡文", "卡组张辉权", "通讯组黄林欢", "效能组崔龙龙", "单片机黄文潘", "PQA戚飘红", "测试部汪肖肖", "NPI黄恒沵", "测试部硬件测试", "测试部软件测试"];
+    const burndownGroupOrder = ["安卓组唐朝", "安卓组霍耀光", "安卓组刘锐峰", "应用丘志鹏", "硬件组向阳", "SE胡文", "结构组赵林立", "卡组张辉权", "通讯组黄林欢", "PQA戚飘红", "单片机黄文潘", "效能组崔龙龙", "NPI黄恒沵", "测试部汪肖肖", "测试部硬件测试", "测试部软件测试"];
     const rateTrendDays = ["05-09", "05-11", "05-12", "05-13", "05-14"];
     const rateTrendData = {"05-09": {"close_rate": 83.9, "fix_rate": 93.3}, "05-11": {"close_rate": 87.2, "fix_rate": 94.0}, "05-12": {"close_rate": 85.9, "fix_rate": 92.8}, "05-13": {"close_rate": 80.3, "fix_rate": 87.4}, "05-14": {"close_rate": 80.7, "fix_rate": 88.3}};
 </script>
